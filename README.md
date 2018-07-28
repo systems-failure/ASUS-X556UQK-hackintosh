@@ -26,13 +26,13 @@ TouchPad | Elan Touchpad (ELAN1000)
 
 ✅ HDMI (Audio + Video)
 
-✅ All USB ports
+✅ All USB Type A ports
 
 ✅ Keyboard
 
-✅ TouchPad
+✅ Touchpad
 
-✅ Keyboard Backlighting
+✅ Internal screen backlight change
 
 ✅ Ethernet (LAN)
 
@@ -56,9 +56,9 @@ TouchPad | Elan Touchpad (ELAN1000)
 
 ⚠️ USB-C (not tested, should work fine)
 
-❌ SD card reader
+❌ Realtek SD card reader
 
-❌ NVIDIA Optimus (impossible to get working at the moment)
+❌ NVIDIA GeForce 940MX (Optimus - impossible to get working at the moment)
 
 
 # Kexts list
@@ -75,7 +75,7 @@ TouchPad | Elan Touchpad (ELAN1000)
 
 [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
 
-[RehabMan' s FakeSMC sensors](https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads/)
+[RehabMan's FakeSMC sensors](https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads/)
 
 [AppleALC](https://github.com/acidanthera/AppleALC) (layout-id 27) + Clover ACPI Fixes (FixHPET, FixIPIC, FixRTC, FixTMR)
 
