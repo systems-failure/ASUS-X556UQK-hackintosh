@@ -24,7 +24,7 @@ TouchPad | Elan Touchpad (ELAN1000)
   
 ✅ Intel HD 620 (with QE/CI)
 
-✅ HDMI (Audio + Video)
+✅ VGA/HDMI (Audio + Video)
 
 ✅ All USB Type A ports
 
@@ -48,9 +48,9 @@ TouchPad | Elan Touchpad (ELAN1000)
 
 ✅ Native power managment
 
-⚠️ FN Keys (brightness and volume control - FN+F9 for disabling the touchpad does not work)
+✅ Battery status
 
-⚠️ Battery Status (mostly, battery status is 0% when AC Adapter is connected)
+⚠️ FN Keys (brightness and volume control - FN+F9 for disabling the touchpad does not work)
 
 ⚠️ Sleep (wakes up immediately)
 

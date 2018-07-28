@@ -195,7 +195,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-ath9565 nv_disable=1 -disablegfxfirmware -v darkwake=no</string>
+		<string>-ath9565 nv_disable=1 abm_firstpolldelay=16000 -disablegfxfirmware -v darkwake=no</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
