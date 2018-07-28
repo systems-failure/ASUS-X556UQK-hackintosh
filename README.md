@@ -14,8 +14,11 @@ Audio | Intel HDA - Realtek ALC255
 Ports | 2x USB 3.0, 1x USB 3.1, HDMI, mic, earphone, SD card reader, LAN
 TouchPad | Elan Touchpad (ELAN1000)
 
-## Please note: DO NOT blindly copy the CLOVER folder into your EFI partition. DSDT and SSDT tables can be different even on the same model.
-## You must then [extract DSDT/SSDTs](https://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/), then modify it as needed.
+## Please note: DO NOT blindly copy the CLOVER folder into your EFI partition. 
+
+## DSDT and SSDT tables can be different even on the same model.
+
+## You must then [extract DSDT/SSDTs](https://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/) and modify the files as needed.
 
 # What works
   
@@ -42,6 +45,8 @@ TouchPad | Elan Touchpad (ELAN1000)
 ✅ Speaker + Internal Microphone
 
 ✅ Laptop lid
+
+✅ Native power managment
 
 ⚠️ Battery Status (mostly)
 
