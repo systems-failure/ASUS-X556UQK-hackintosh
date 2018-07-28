@@ -9,7 +9,7 @@ Processor |	Intel Core i7-7500U CPU (Kaby Lake)
 Video |	Integrated Intel HD 620 + Nvidia GTX 940MX
 Memory |	8 GB DDR4
 Storage |	Micron 512 GB SSD
-Connectivity |	Wireless AC Atheros ATH9565, Realtek Gigabit Lan, Bluetooth 4.0
+Connectivity |	Wireless AC Atheros ATH9565, Realtek Gigabit Lan, Bluetooth 4.2
 Audio | Intel HDA - Realtek ALC255
 Ports | 2x USB 3.0, 1x USB 3.1, HDMI, mic, earphone, SD card reader, LAN
 TouchPad | Elan Touchpad (ELAN1000)
@@ -42,21 +42,19 @@ TouchPad | Elan Touchpad (ELAN1000)
 
 ✅ UVC HD Webcam
 
-✅ Speaker + Internal Microphone
+✅ Speaker + Internal Microphone + Headphone jack (auto detection)
 
 ✅ Laptop lid
 
 ✅ Native power managment
 
-⚠️ Battery Status (mostly)
+⚠️ FN Keys (brightness and volume control - FN+F9 for disabling the touchpad does not work)
+
+⚠️ Battery Status (mostly, battery status is 0% when AC Adapter is connected)
+
+⚠️ Sleep (wakes up immediately)
 
 ⚠️ USB-C (not tested, should work fine)
-
-⚠️ Sleep (fixable)
-
-⚠️ FN Keys (only works with volume control - fixable)
-
-⚠️ Battery status is 0% when AC Adapter is connected. (fixable)
 
 ❌ SD card reader
 
