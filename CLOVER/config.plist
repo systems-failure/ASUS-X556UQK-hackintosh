@@ -195,7 +195,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>nv_disable=1 dart=0 -disablegfxfirmware -v -ath9565</string>
+		<string>-ath9565 nv_disable=1 -disablegfxfirmware -v darkwake=no</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
