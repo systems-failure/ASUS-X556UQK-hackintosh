@@ -145,8 +145,8 @@ Patched AML files are not available, DSDT and SSDT tables can be different even 
  [Extract your DSDT/SSDTs](https://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/), modify the files as needed, compile and save your new AML files into CLOVER/ACPI/patched.
  (also check out CLOVER/ACPI/patched_dsl for working examples)  
 
-### Installed patches (with the MaciASL tool).
-_RehabMan Laptop Repo
+### Installed patches (with the MaciASL tool):
+**_RehabMan Laptop Repo**
 
 - [syn] Fix PARSEOP_ZERO Error (aggressive)
 
@@ -154,7 +154,7 @@ _RehabMan Laptop Repo
 
   
 
-_VoodooI2C-Patches Repo
+**_VoodooI2C-Patches Repo**
 
 - Windows 10 Patch
 
