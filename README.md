@@ -1,16 +1,9 @@
 
 # Asus F556U (X556UQK) - High Sierra hackintosh
 
-  
+
 
 ## Specs
-
-  
-  
-
----- | Asus X556UQK
-
------------- | -------------
 
 Processor | Intel Core i7-7500U CPU (Kaby Lake)
 
