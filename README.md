@@ -138,14 +138,14 @@ TouchPad | Elan Touchpad (ELAN1000)
 
 [AppleBacklightInjector + SSDT-PNLF + AppleBacklight Clover patch](https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/)
 
-## Note on DSDT/SSDT patches: 
+# DSDT/SSDT patches
+## Note: 
 Patched AML files are not available, DSDT and SSDT tables can be different even on the same model.
 
  [Extract your DSDT/SSDTs](https://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/), modify the files as needed, compile and save your new AML files into CLOVER/ACPI/patched.
  (also check out CLOVER/ACPI/patched_dsl for working examples)  
 
-# DSDT patches (MaciASL)
-
+### Installed patches (with the MaciASL tool).
 _RehabMan Laptop Repo
 
 - [syn] Fix PARSEOP_ZERO Error (aggressive)
