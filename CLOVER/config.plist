@@ -195,13 +195,17 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-ath9565 nv_disable=1 abm_firstpolldelay=16000 -disablegfxfirmware -v darkwake=no</string>
+		<string>nv_disable=1 abm_firstpolldelay=16000 -disablegfxfirmware -ath9565</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
-		<string>Macintosh HD</string>
+		<string>OS</string>
 		<key>Legacy</key>
 		<string>PBR</string>
+		<key>NeverDoRecovery</key>
+		<false/>
+		<key>NeverHibernate</key>
+		<false/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
@@ -255,6 +259,72 @@
 	</array>
 	<key>GUI</key>
 	<dict>
+		<key>Custom</key>
+		<dict>
+			<key>Entries</key>
+			<array>
+				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>Preboot High Sierra</string>
+					<key>Hidden</key>
+					<true/>
+					<key>Ignore</key>
+					<false/>
+					<key>InjectKexts</key>
+					<true/>
+					<key>NoCaches</key>
+					<false/>
+					<key>Path</key>
+					<string>\EA5DA310-4853-3630-BA44-B27111D4FC58\System\Library\CoreServices\boot.efi</string>
+					<key>Type</key>
+					<string>OSX</string>
+					<key>Volume</key>
+					<string>A67F0BDDCB583349A06816DD978B75E6</string>
+				</dict>
+				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>APFS Recovery</string>
+					<key>Hidden</key>
+					<true/>
+					<key>Ignore</key>
+					<false/>
+					<key>InjectKexts</key>
+					<true/>
+					<key>NoCaches</key>
+					<false/>
+					<key>Path</key>
+					<string>\EA5DA310-4853-3630-BA44-B27111D4FC58\boot.efi</string>
+					<key>Type</key>
+					<string>OSXRecovery</string>
+					<key>Volume</key>
+					<string>01BC2A5C67CF924A9B42132C0FBC84A3</string>
+				</dict>
+				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>Hidden</key>
+					<true/>
+					<key>Ignore</key>
+					<false/>
+					<key>InjectKexts</key>
+					<true/>
+					<key>NoCaches</key>
+					<false/>
+					<key>Path</key>
+					<string>\EA5DA310-4853-3630-BA44-B27111D4FC58\com.apple.installer\boot.efi</string>
+					<key>Title</key>
+					<string>High Sierra Install Prebooter</string>
+					<key>Type</key>
+					<string>OSXInstaller</string>
+					<key>Volume</key>
+					<string>A67F0BDDCB583349A06816DD978B75E6</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Hide</key>
 		<array>
 			<string>Windows</string>
@@ -278,12 +348,12 @@
 			<key>Linux</key>
 			<false/>
 			<key>Tool</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>El Capitan</string>
+		<string>Minimalism</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -400,10 +470,6 @@
 	</dict>
 	<key>RtVariables</key>
 	<dict>
-		<key>BooterConfig</key>
-		<string>0x28</string>
-		<key>CsrActiveConfig</key>
-		<string>0x67</string>
 		<key>ROM</key>
 		<data>
 		sgvCMuDf
