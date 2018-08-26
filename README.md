@@ -173,4 +173,4 @@ _VoodooI2C-Patches Repo
 
 # Credits
 
-Thanks to everyone who made this possibile: every single developer that and the whole hackintosh community.
+Thanks to everyone who made this possibile: RehabMan, alexandred, black-dragon74, Mieze, acidanthera, every contributor to the repos/guides and the whole Hackintosh community.
