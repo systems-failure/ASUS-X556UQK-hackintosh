@@ -76,15 +76,15 @@ TouchPad | Elan Touchpad (ELAN1000)
 
 
 
+✅ ️ Sleep (takes a bit for going completely into sleep mode, but it works!)
+
+
+
 ⚠️ Bluetooth (Detected by the system but device cannot be discoverable)
 
 
 
-⚠️ FN Keys (brightness and volume control - FN+F9 for disabling the touchpad does not work)
-
-  
-
-⚠️ Sleep (wakes up immediately)
+⚠️ FN Keys (brightness and volume control works - FN+F9 for disabling the touchpad does not work, sleep with FN+F1 crashes the system)
 
   
 
