@@ -56,10 +56,6 @@ TouchPad | Elan Touchpad (ELAN1000)
 
   
 
-✅ Bluetooth
-
-  
-
 ✅ UVC HD Webcam
 
   
@@ -78,7 +74,11 @@ TouchPad | Elan Touchpad (ELAN1000)
 
 ✅ Battery status
 
-  
+
+
+⚠️ Bluetooth (Detected by the system but device cannot be discoverable)
+
+
 
 ⚠️ FN Keys (brightness and volume control - FN+F9 for disabling the touchpad does not work)
 
