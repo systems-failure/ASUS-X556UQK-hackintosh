@@ -80,7 +80,7 @@ TouchPad | Elan Touchpad (ELAN1000)
 
 
 
-⚠️ Bluetooth (Detected by the system but no devices can be detected)
+⚠️ Bluetooth (Detected by the system but no BT devices can be found)
 
 
 
