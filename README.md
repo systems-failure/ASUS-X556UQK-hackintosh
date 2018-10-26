@@ -76,11 +76,11 @@ TouchPad | Elan Touchpad (ELAN1000)
 
 
 
-✅ ️ Sleep (takes a bit for going completely into sleep mode, but it works!)
+✅ ️Sleep (takes a bit for going completely into sleep mode, but it works!)
 
 
 
-⚠️ Bluetooth (Detected by the system but device cannot be discoverable)
+⚠️ Bluetooth (Detected by the system but no devices can be detected)
 
 
 
