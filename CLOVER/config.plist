@@ -213,7 +213,7 @@
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
-		<string>OS</string>
+		<string>HD(1,GPT,ACDCF682-850C-4D80-91C3-B44513C442F0,0x800,0x82000)</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverDoRecovery</key>
