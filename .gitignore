@@ -28,5 +28,6 @@ Temporary Items
 .apdisk
 
 CLOVER/themes/*
+CLOVER/ACPI/origin/*
 CLOVER/ACPI/patched/*
 *.log
