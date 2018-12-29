@@ -283,9 +283,7 @@ You could also check out some patched DSL examples available in the "CLOVER/ACPI
 **Others**
 -  **AUDIO (AppleALC)**: Enable Clover ACPI Fixes (FixHPET, FixIPIC, FixRTC, FixTMR) and set the layout-id 27.
 
--  **BRIGHTNESS**: SSDT-PNLF in ACPI/patched (you should already have AppleBacklightFixup.kext installed to /Library/Extensions)
-
-[Guide](https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightfixup-kext.218222/)
+-  **BRIGHTNESS**: SSDT-PNLF in ACPI/patched (you should already have AppleBacklightFixup.kext installed to /Library/Extensions). [Guide](https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightfixup-kext.218222/)
 
 - **Wi-FI**: Add "-ath9565" as boot flag
   
