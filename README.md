@@ -174,13 +174,13 @@ TouchPad | Elan Touchpad (ELAN1000)
 
   
 
-[ACPIBatteryManager](https://bitbucket.org/RehabMan/os-x-acpi-battery-driver/downloads/) + DSDT patches (ASUS VivoBook)
+[ACPIBatteryManager](https://bitbucket.org/RehabMan/os-x-acpi-battery-driver/downloads/)
 
   
 
   
 
-[VoodooI2C + VoodooI2CELAN](https://github.com/alexandred/VoodooI2C) (with DSDT patches - 0x55 pinout + patch for disabling AppleIntelLpss from Clover config.plist)
+[VoodooI2C + VoodooI2CELAN](https://github.com/alexandred/VoodooI2C)
 
   
 
@@ -204,19 +204,31 @@ TouchPad | Elan Touchpad (ELAN1000)
   
   
 
+[ATH9KFixup.kext](https://github.com/black-dragon74/ATH9KFixup)
+
+
+
+
+
 #### Install in /System/Library/Extensions:
 
   
   
   
 
-[ATH9KInjector + ATH9KFixup](https://github.com/black-dragon74/ATH9KFixup) (with -ath9565 boot flag)
+[ATH9KInjector.kext](https://github.com/black-dragon74/ATH9KFixup)
+
+  
+  
+
+  
+#### Install in /Library/Extensions:
 
   
   
   
 
-[AppleBacklightInjector.kext](https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/)
+[AppleBacklightFixUp.kext](https://bitbucket.org/RehabMan/applebacklightfixup/)
 
   
   
@@ -262,7 +274,7 @@ Patched AML files are not available, DSDT and SSDT tables can be different even 
 
   
 
-- "custom made patch" (check out Scope (_SB.PCI0.I2C1) - Device (ETPD) from the DSL example)
+- "custom made patch" (check out Scope (_SB.PCI0.I2C1) - Device (ETPD) from the DSL example - 0x55 pinout)
 
   
   
@@ -271,9 +283,13 @@ Patched AML files are not available, DSDT and SSDT tables can be different even 
 **Others**
 -  **AUDIO (AppleALC)**: Enable Clover ACPI Fixes (FixHPET, FixIPIC, FixRTC, FixTMR) and set the layout-id 27.
 
--  **BRIGHTNESS**: [SSDT-PNLF + AppleBacklight Clover patch](https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/)
+-  **BRIGHTNESS**: SSDT-PNLF in ACPI/patched (you should already have AppleBacklightFixup.kext installed to /Library/Extensions)
 
+[Guide](https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightfixup-kext.218222/)
+
+- **Wi-FI**: Add "-ath9565" as boot flag
   
+- **TOUCHPAD**: DSDT patches as specified before + patch for disabling AppleIntelLpss with Clover, available in the config.plist file)
 
 # Credits
 
