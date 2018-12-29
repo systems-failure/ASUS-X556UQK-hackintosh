@@ -244,7 +244,7 @@ Patched AML files are not available, DSDT and SSDT tables can be different even 
 
 [Extract your DSDT/SSDTs](https://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/), modify the files as needed, compile and save your new AML files into CLOVER/ACPI/patched.
 
-(also check out CLOVER/ACPI/patched_dsl for working examples)
+You could also check out some patched DSL examples available in the "CLOVER/ACPI/DSL (for reference)/patched" folder.
 
   
 
