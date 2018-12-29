@@ -64,6 +64,12 @@ TouchPad | Elan Touchpad (ELAN1000)
 
   
 
+✅ USB type C port
+
+  
+
+  
+
 ✅ Keyboard
 
   
@@ -82,7 +88,7 @@ TouchPad | Elan Touchpad (ELAN1000)
 
   
 
-⚠️  Ethernet (LAN) (network drops when high speed transfers are initiated)
+⚠️ Onboard Ethernet (network drops when high speed transfers are initiated)
 
   
 
@@ -137,12 +143,6 @@ TouchPad | Elan Touchpad (ELAN1000)
   
 
 ⚠️ FN Keys (brightness and volume control works - FN+F9 for disabling the touchpad does not work, sleep with FN+F1 crashes the system)
-
-  
-
-  
-
-⚠️ USB-C (not tested, should work fine)
 
   
 
