@@ -210,7 +210,18 @@ TouchPad | Elan Touchpad (ELAN1000)
 
   
 
-  
+# BIOS/Firmware
+**After my long testing I have concluded that the version 313 works just fine for this hackintosh.**
+
+Versions 314 and 315 **DO NOT WORK**. 
+There are some strange unknown problems with the Intel graphics card.
+
+If you upgraded the BIOS, or Windows Update did that for you, **you should downgrade** or you might encounter some strange problems.
+
+You can find the 313 version it in this repository (BIOS folder) or on the [ASUS website](https://www.asus.com/supportonly/F556UQ/HelpDesk_BIOS/)
+
+**WARNING**: Please **make sure** that your computer model is **X556UQK (F556U)** **BEFORE** flashing the BIOS. 
+If something goes wrong it's not my fault.
 
 # Kexts list
 
