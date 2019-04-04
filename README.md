@@ -3,10 +3,12 @@
 # Asus F556U (X556UQK) - High Sierra hackintosh
 
   
-  
+
   
 
 ## Specs
+
+  
 
   
 
@@ -14,7 +16,11 @@ Processor | Intel Core i7-7500U CPU (Kaby Lake)
 
   
 
+  
+
 Video | Integrated Intel HD 620 + Nvidia GTX 940MX
+
+  
 
   
 
@@ -22,7 +28,11 @@ Memory | 8 GB DDR4
 
   
 
+  
+
 Storage | Micron 512 GB SSD
+
+  
 
   
 
@@ -30,7 +40,11 @@ Connectivity | Wireless AC Atheros ATH9565, Realtek Gigabit Lan, Bluetooth 4.2
 
   
 
+  
+
 Audio | Intel HDA - Realtek ALC255
+
+  
 
   
 
@@ -38,7 +52,11 @@ Ports | 2x USB 3.0, 1x USB 3.1, HDMI, mic, earphone, SD card reader, LAN
 
   
 
+  
+
 TouchPad | Elan Touchpad (ELAN1000)
+
+  
 
   
 
@@ -46,7 +64,11 @@ TouchPad | Elan Touchpad (ELAN1000)
 
   
 
+  
+
 ✅ Intel HD 620 (with QE/CI)
+
+  
 
   
 
@@ -58,7 +80,11 @@ TouchPad | Elan Touchpad (ELAN1000)
 
   
 
+  
+
 ✅ All USB Type A ports
+
+  
 
   
 
@@ -70,7 +96,11 @@ TouchPad | Elan Touchpad (ELAN1000)
 
   
 
+  
+
 ✅ Keyboard
+
+  
 
   
 
@@ -82,7 +112,11 @@ TouchPad | Elan Touchpad (ELAN1000)
 
   
 
+  
+
 ✅ Internal screen backlight change
+
+  
 
   
 
@@ -94,7 +128,11 @@ TouchPad | Elan Touchpad (ELAN1000)
 
   
 
+  
+
 ✅ Wi-Fi
+
+  
 
   
 
@@ -106,7 +144,11 @@ TouchPad | Elan Touchpad (ELAN1000)
 
   
 
+  
+
 ✅ Speaker + Internal Microphone + Headphone jack (auto detection)
+
+  
 
   
 
@@ -118,7 +160,11 @@ TouchPad | Elan Touchpad (ELAN1000)
 
   
 
+  
+
 ✅ Native power managment
+
+  
 
   
 
@@ -127,22 +173,24 @@ TouchPad | Elan Touchpad (ELAN1000)
 ✅ Battery status
 
   
-  
+
   
 
 ✅ ️Sleep (takes a bit for going completely into sleep mode, but it works!)
 
   
-  
+
   
 
 ⚠️ Bluetooth (Detected by the system but no BT devices can be found)
 
   
-  
+
   
 
 ⚠️ FN Keys (brightness and volume control works - FN+F9 for disabling the touchpad does not work, sleep with FN+F1 crashes the system)
+
+  
 
   
 
@@ -154,7 +202,11 @@ TouchPad | Elan Touchpad (ELAN1000)
 
   
 
+  
+
 ❌ NVIDIA GeForce 940MX (Optimus - impossible to get working at the moment)
+
+  
 
   
 
@@ -164,7 +216,11 @@ TouchPad | Elan Touchpad (ELAN1000)
 
   
 
+  
+
 #### Install into your CLOVER/kext/10.13 folder:
+
+  
 
   
 
@@ -174,7 +230,12 @@ TouchPad | Elan Touchpad (ELAN1000)
 
   
 
+  
+
+
 [ACPIBatteryManager](https://bitbucket.org/RehabMan/os-x-acpi-battery-driver/downloads/)
+
+  
 
   
 
@@ -186,9 +247,13 @@ TouchPad | Elan Touchpad (ELAN1000)
 
   
 
+  
+
 [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
 
   
+
+[WhateverGreen](https://github.com/acidanthera/WhateverGreen)  
 
   
 
@@ -198,63 +263,59 @@ TouchPad | Elan Touchpad (ELAN1000)
 
   
 
-[AppleALC](https://github.com/acidanthera/AppleALC)
   
 
+[AppleALC](https://github.com/acidanthera/AppleALC)
+
   
+
   
 
 [ATH9KFixup.kext](https://github.com/black-dragon74/ATH9KFixup)
 
-
-
-
+  
+  
+  
+  
+  
 
 #### Install in /System/Library/Extensions:
 
   
-  
+
   
 
 [ATH9KInjector.kext](https://github.com/black-dragon74/ATH9KFixup)
 
-  
+
   
 
   
-#### Install in /Library/Extensions:
 
-  
-  
-  
+## DSDT/SSDT patches
 
-[AppleBacklightFixUp.kext](https://bitbucket.org/RehabMan/applebacklightfixup/)
+**DO NOT ASK** or **ATTEMPT** to use existing AML files. DSDT and SSDT tables can be different even on the same model.
 
-  
-  
-  
-
-# DSDT/SSDT patches
-
-## Note:
-
-Patched AML files are not available, DSDT and SSDT tables can be different even on the same model.
-
-  
 
 [Extract your DSDT/SSDTs](https://www.tonymacx86.com/threads/guide-patching-laptop-dsdt-ssdts.152573/), modify the files as needed, compile and save your new AML files into CLOVER/ACPI/patched.
 
-(also check out CLOVER/ACPI/patched_dsl for working examples)
+You could also check out check out CLOVER/ACPI/**patched_dsl** for working examples.
+**hint**: use **diff** for finding out the main differences.
 
   
+### Required patches (applied with MaciASL):
 
-### Installed patches (with the MaciASL tool):
+  
 
 **_RehabMan Laptop Repo**
 
   
 
+  
+
 -  [syn] Fix PARSEOP_ZERO Error (aggressive)
+
+  
 
   
 
@@ -264,7 +325,11 @@ Patched AML files are not available, DSDT and SSDT tables can be different even 
 
   
 
+  
+
 **_VoodooI2C-Patches Repo**
+
+  
 
   
 
@@ -274,24 +339,33 @@ Patched AML files are not available, DSDT and SSDT tables can be different even 
 
   
 
-- "custom made patch" (check out Scope (_SB.PCI0.I2C1) - Device (ETPD) from the DSL example - 0x55 pinout)
-
-  
-  
   
 
-**Others**
--  **AUDIO (AppleALC)**: Enable Clover ACPI Fixes (FixHPET, FixIPIC, FixRTC, FixTMR) and set the layout-id 27.
+- "custom made patch" (check out Scope (_SB.PCI0.I2C1) - Device (**ETPD**) from the DSL example)
 
--  **BRIGHTNESS**: SSDT-PNLF in ACPI/patched (you should already have AppleBacklightFixup.kext installed to /Library/Extensions)
-
-[Guide](https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightfixup-kext.218222/)
-
-- **Wi-FI**: Add "-ath9565" as boot flag
   
-- **TOUCHPAD**: DSDT patches as specified before + patch for disabling AppleIntelLpss with Clover, available in the config.plist file)
+
+  
+
+## And now?
+After creating the proper DSDT file everything should work out of the box using the Clover **config.plist** available here in the repo.
+
+If you want to know what are the modifications needed for making everything function you can check the "i know what I'm doing section" :)
+
+#### i know what I'm doing 
+-  *AUDIO*: Clover ACPI Fixes (FixHPET, FixIPIC, FixRTC, FixTMR) and layout-id 27.
+
+- *BRIGHTNESS*: ACPI->AddPNLF, Devices->SetIntelBacklight and SetIntelMaxBacklight
+
+- *Wi-FI*: "-ath9565" as boot flag
+
+-  *TOUCHPAD*: DSDT custom patch (0x55 pinout) along with dynamic KextPatch for disabling AppleIntelLpsss
+
+  
 
 # Credits
+
+  
 
   
 
