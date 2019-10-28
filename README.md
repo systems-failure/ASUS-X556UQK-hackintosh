@@ -3,7 +3,9 @@
 # Asus F556U (X556UQK) - High Sierra hackintosh
 
   
+⚠️ **Unmaintained, as I don't have this laptop anymore.**
 
+Forks are welcome.
   
 
 ## Specs
